@@ -1,7 +1,7 @@
 import { faCartShopping, faHeart } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
-import userFetch from '../hooks/usefetch'
+import userFetch from '../hooks/userFetch'
 import { addWishlistItems } from '../redux/slices/wishlistSlice'
 import { useDispatch } from 'react-redux'
 import { addItemToCart } from '../redux/slices/cartSlice'
